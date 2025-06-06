@@ -1,0 +1,67 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+p{
+    font-size: 1em;
+    color: #800080;
+}
+
+
+.bookButton{
+    width:auto;
+    align-self: center;
+    border-width: 0.1em;
+    border-color: #660066;
+    color: #800080;
+    background-color: #D9D9D9;
+    font-size:0.7em;
+    padding:0.5em 1em;
+    font-weight:bold;
+}
+
+.custom-navbar {
+  background-color:#efbbff;
+  border-top:#660066 solid 0.5em;
+  border-bottom:#660066 solid 1em;
+}
+
+
+.navWords{
+    font-size: 0.7em;
+    color: #800080;
+    text-decoration: none;
+    margin-right:2rem;
+}
+
+.info-bar{
+    background-color: #D896FF; 
+  padding: 0.5rem 1rem;
+  
+  font-weight: bold;
+  width:100%;
+}
+
+.info-text{
+    margin:0;
+    font-size:1rem;
+    color: #D9D9D9;
+}
+
+.info-item{
+    display: flex;
+    align-items: center;
+    gap:0.5rem;
+}
+
+.icon{
+    display:inline-block;
+}
+
+.purple-nails-img{
+    width:100%;
+    height: auto;
+    padding-top:110px;
+}
