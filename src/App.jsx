@@ -14,7 +14,7 @@ import ConfirmationPage from './pages/confirmation';
 function App() {
  
 return(
-  <Router>
+
     <Routes>
       <Route path="/" element={<Home/>} />
       <Route path="/about" element={<About/>} />
@@ -26,7 +26,7 @@ return(
       <Route path="/appointment" element={<AppointmentPage />} />
       <Route path="/confirmation" element={<ConfirmationPage />} />
     </Routes>
-  </Router>
+
 )
 
 }
