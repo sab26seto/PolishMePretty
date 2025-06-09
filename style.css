@@ -1,0 +1,272 @@
+@import url('https://fonts.googleapis.com/css2?family=Domine:wght@400..700&family=Karla:ital,wght@0,200..800;1,200..800&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+p{
+    font-size: 1em;
+    color: #800080;
+    font-family: "Domine";
+}
+
+span{
+    color:#800080;
+    font-family: "Domine";
+}
+
+h2{
+    font-family: "Karla", sans-serif;
+}
+
+
+.bookButton{
+    width:auto;
+    align-self: center;
+    border-width: 0.1em;
+    border-color: #660066;
+    color: #800080;
+    background-color: #fcf1ff;
+    font-size:0.7em;
+    padding:0.5em 1em;
+    font-weight:bold;
+    font-family: "Domine";
+}
+
+.bookButton:hover{
+    background-color: #D896FF;
+    color: #660066;
+    border-color: #660066;
+}
+
+.custom-navbar {
+  background-color:#efbbff;
+  border-top:#660066 solid 0.5em;
+  border-bottom:#660066 solid 1em;
+}
+
+
+.navWords{
+    font-size: 0.7em;
+    color: #800080;
+    text-decoration: none;
+    margin-right:2rem;
+    font-family: "Domine";
+}
+
+.info-bar{
+    background-color: #D896FF; 
+  padding: 0.5rem 1rem;
+  font-weight: bold;
+  width:100%;
+}
+
+.info-text{
+    margin:0;
+    font-size:1rem;
+    color: #D9D9D9;
+    font-family: "Domine";
+}
+
+.info-item{
+    display: flex;
+    align-items: center;
+    gap:0.5rem;
+}
+
+.icon{
+    display:inline-block;
+}
+
+.purple-nails-img{
+    width:100%;
+    height: auto;
+    padding-top:110px;
+}
+
+.servicesText{
+    text-align:center;
+    font-size: 3em;
+    color: #800080;
+    padding: 0.5em;
+    
+}
+
+.service-cards{
+    padding-top:5em;
+}
+
+.custom-card{
+    background-color:#D896FF;
+    border:none;
+    align-items:center;
+    padding-top:0.5em;
+    border-radius: 0.5em;
+}
+
+.custom-card:hover{
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.card-image{
+    width: 95%;
+    height: 25em;
+    border-radius: 0.5em;
+}
+
+.card-title{
+    font-size: 1.5em;
+    color: #800080;
+    font-weight: bold;
+    text-align: center;
+    font-family: "Domine";
+}
+
+.builder-page{
+    background-color:#efbbff;
+}
+
+.header-imgs{
+    padding-top:110px;
+
+}
+
+.img-fluid{
+    width: 20vw;
+    height: 16em;
+    padding-bottom:0.5em;
+}
+
+.about{
+    background-color:#fcf1ff;
+    height:100vh;
+
+}
+.about-content{
+    padding-top:110px;
+}
+
+.icon{
+    width:1.5em;
+    height:1.5em;
+}
+
+.booking-container {
+  background-color: #d9d9d9;
+  padding: 2rem;
+  border-radius: 12px;
+  font-family: sans-serif;
+  color: #800080;
+  max-width: 94vw;
+  margin: auto;
+  margin-top:120px;
+}
+
+.booking-container h2 {
+  font-size: 1.8rem;
+  font-weight: bold;
+  font-family: "Karla";
+}
+
+.booking-form {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  margin-top: 1rem;
+  font-family: "Domine";
+}
+
+.left-section,
+.right-section {
+  flex: 1;
+  min-width: 250px;
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+}
+
+.calendar-section {
+  flex: 1;
+  min-width: 250px;
+}
+
+input,
+select,
+textarea {
+  padding: 0.5rem;
+  border: 2px solid #800080;
+  border-radius: 4px;
+  outline: none;
+}
+
+.finish-button {
+  background-color: #f5d3f7;
+  color: #800080;
+  border: 2px solid #800080;
+  border-radius: 6px;
+  padding: 0.6rem 1.2rem;
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: 1rem;
+  align-self: start;
+}
+
+.finish-button:hover {
+  background-color: #e9b8ec;
+}
+
+.react-datepicker__day--selected,
+.react-datepicker__day--keyboard-selected {
+  background-color: #d186e2 !important;
+  color: white !important;
+}
+
+.custom-calendar {
+  background-color: #f4d1f4;
+  border: 2px solid #800080;
+  border-radius: 8px;
+  padding: 0.5rem;
+  
+}
+
+.confirmation{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.confirmation-card{
+    opacity: 0.8;
+    margin-top: 120px;
+    width: 30%;
+    border-radius:1rem;
+    background-color: #efbbff;
+    border:none;
+}
+
+.confirmation-card .card-body{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+    justify-content:center;
+    text-align:center;
+}
+.confirmation-image{
+    width: 30%;
+    height:auto;
+    padding: 1em;
+    
+}
+
+.confirmation-text{
+    text-align:center;
+}
+
+.confirmation-title{
+    text-align:center;
+    font-family: "Karla";
+}
