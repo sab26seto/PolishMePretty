@@ -11,6 +11,7 @@ import locationIcon from '../assets/location-icon.png';
 
 
 
+import { Link } from "react-router-dom";
 import { Container, Row, Col, Nav, Navbar, Button, Alert, Breadcrumb, Card, Form } from 'react-bootstrap';
 
 function home() {
@@ -20,16 +21,16 @@ function home() {
        
          <Navbar fixed ="top" expand="lg" className="custom-navbar">
       <Container>
-        <Navbar.Brand href="#home">
+        <Navbar.Brand as={Link} to="/">
           <img alt="" src={logoImage} width="40" height="40" className="d-inline-block align-top" />{' '}
           <img alt="" src={logoWords} width ="auto" height= "50" className ="d-inline-block align-top"></img></Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="ms-auto align-items-right" >
-            <Nav.Link className = "navWords" href="#home">Home</Nav.Link>
-            <Nav.Link className = "navWords" href="#link">About</Nav.Link>
-            <Nav.Link className = "navWords" href="#link">Services</Nav.Link>
-            <Button variant="secondary" className="bookButton">Book</Button>
+            <Nav.Link className = "navWords" as={Link} to ="/">Home</Nav.Link>
+            <Nav.Link className = "navWords" as={Link} to ="/about">About</Nav.Link>
+            <Nav.Link className = "navWords" as={Link} to ="/services">Services</Nav.Link>
+            <Button variant="secondary" className="bookButton" as={Link} to ="/booking">Book</Button>
           </Nav>
         </Navbar.Collapse>
       </Container>
@@ -56,10 +57,12 @@ function home() {
 </div>
 <img alt="" src={logoWords} width="auto" height="200" className="d-inline-block align-top logo-image" />
 <p>Your go-to nail salon for all things pretty!</p>
-<Button className="bookButton">Book Now</Button>
+<Button className="bookButton" as={Link} to="/booking" >Book Now</Button>
+<br></br>
 
       </header>
     </div>
+    
   );
 }
 
